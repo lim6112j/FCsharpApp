@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharpapp", "csharpapp\csharpapp.csproj", "{41797C1B-CDF8-4372-9860-E95AB9FA44B7}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fsharpapp", "fsharpapp\fsharpapp.fsproj", "{AE5B8732-5359-41E0-8715-F890EBAEF8D5}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fsharpapp", "fsharpapp\fsharpapp.fsproj", "{BD57E259-8FB9-45BB-A9D1-B5B3144A527F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +20,9 @@ Global
 		{41797C1B-CDF8-4372-9860-E95AB9FA44B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41797C1B-CDF8-4372-9860-E95AB9FA44B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41797C1B-CDF8-4372-9860-E95AB9FA44B7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AE5B8732-5359-41E0-8715-F890EBAEF8D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE5B8732-5359-41E0-8715-F890EBAEF8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE5B8732-5359-41E0-8715-F890EBAEF8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE5B8732-5359-41E0-8715-F890EBAEF8D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD57E259-8FB9-45BB-A9D1-B5B3144A527F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD57E259-8FB9-45BB-A9D1-B5B3144A527F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD57E259-8FB9-45BB-A9D1-B5B3144A527F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD57E259-8FB9-45BB-A9D1-B5B3144A527F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
