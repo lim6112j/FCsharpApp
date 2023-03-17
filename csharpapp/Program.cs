@@ -8,5 +8,7 @@ public class Program {
     // f# type -- type has no constructor , value needed from fsharp
     var optionValue = MyTypes.value1;
     Console.WriteLine(optionValue);
+    Console.WriteLine(String.Join(", ",Example.withYieldBang.ToList()));
+    Example.withYield.ToList().ForEach(Console.WriteLine);
   }
 }
