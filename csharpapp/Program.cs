@@ -1,9 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using fsharpapp;
 namespace CsharpApp;
 public class Program {
   public static void Main(){
-    Console.WriteLine("hello");
+    // f# function
     fsharpapp.Say.hello("lim");
-    Console.WriteLine(fsharpapp.types.MyOption<int>.Some);
+    // f# type -- type has no constructor , value needed from fsharp
+    var optionValue = MyTypes.value1;
+    Console.WriteLine(optionValue);
   }
 }

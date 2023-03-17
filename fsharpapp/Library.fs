@@ -3,7 +3,8 @@
 module Say =
     let hello name =
         printfn "Hello %s" name
-module types =
+module MyTypes =
   type MyOption<'a> =
-    | Some
-    | None
+    | MySome of 'a
+    | MyNone
+  let value1 = MySome 1
